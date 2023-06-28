@@ -2,6 +2,7 @@
 
 #Example
 
+```
 class MainActivity: Activity(), GDPRRequestable {
     override val requestingActivity: Activity
         get() = this
@@ -21,3 +22,4 @@ class MainActivity: Activity(), GDPRRequestable {
         requestGDPR()
     }
 }
+```
